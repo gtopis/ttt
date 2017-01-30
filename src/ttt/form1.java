@@ -5,6 +5,8 @@
  */
 package ttt;
 
+import javax.swing.JSlider;
+
 /**
  *
  * @author george
@@ -115,6 +117,9 @@ public class form1 extends javax.swing.JFrame {
         System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    public static void setSlidVal(){
+        //jSlider1.setValue(20);
+    }
     /**
      * @param args the command line arguments
      */
@@ -141,11 +146,12 @@ public class form1 extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(form1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+            setSlidVal();
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new form1().setVisible(true);
+             
             }
         });
     }
