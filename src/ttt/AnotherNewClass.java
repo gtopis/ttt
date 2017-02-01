@@ -9,13 +9,6 @@ package ttt;
  *
  * @author Yiannis Sermakis
  */
-public class SomeNewClass {
-    private String justASimpleName;
-    private int id;
-    
-    public SomeNewClass() {
-        justASimpleName = "";
-        id = 0; 
-    }
+public class AnotherNewClass {
     
 }
