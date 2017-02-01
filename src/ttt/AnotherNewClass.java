@@ -10,5 +10,6 @@ package ttt;
  * @author Yiannis Sermakis
  */
 public class AnotherNewClass {
+    private String anotherName;
     
 }
